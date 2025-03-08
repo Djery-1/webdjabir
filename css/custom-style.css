@@ -1,0 +1,60 @@
+/* Custom styles for the login page */
+body {
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-login-image {
+    background: url('../img/login-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+}
+
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h1.h4 {
+    font-weight: 700;
+    color: #333;
+}
+
+.form-control-user {
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+}
+
+.btn-user {
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 50%;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+    margin: 1.5rem 0;
+}
